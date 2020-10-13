@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Full Name - Maheshwari Rana
+    Student ID - 301110467
+    Section - 002 -->
+
+<resources>
+    <string name="app_name">MaheshwariLab2</string>
+    <string name="title">Location de maison</string>
+    <string name="image">Image principale</string>
+    <string name="enter">"    Turn a Dream into a Home"</string>
+    <string name="menuText">Sélectionnez les options dans le menu supérieur!</string>
+    <string name="apart">Appartements</string>
+    <string name="detached">Maison individuelle</string>
+    <string name="semidetached">Maison jumelée</string>
+    <string name="condo_apart">Appartement en copropriété</string>
+    <string name="town_house">Maison de ville</string>
+    <string name="house">Galerie de la maison</string>
+    <string name="houseImage">Image de la maison</string>
+    <string name="address1">123, promenade Thornbeck</string>
+    <string name="price1">2 500 $</string>
+    <string name="address2">28 croissant Mafeking</string>
+    <string name="price2">3 500 $</string>
+    <string name="address3">1050, chemin Markham</string>
+    <string name="price3">2 000 $</string>
+    <string name="address4">01 promenade Brimorton</string>
+    <string name="price4">3 000 $</string>
+    <string name="checkout">Check-out</string>
+    <string name="selected">Vérifier la sélection</string>
+    <string name="name">Entrez votre nom</string>
+    <string name="card">Entrez votre numéro de carte</string>
+    <string name="pay_type">Select type of payment</string>
+    <string name="cash">En espèces</string>
+    <string name="debit">Débit</string>
+    <string name="credit">Crédit</string>
+    <string name="car">Entrez votre voiture préférée</string>
+    <string name="submit">Soumettre</string>
+    <string name="pay">Paiement</string>
+    <string name="date">Date</string>
+    <string name="cvv">CVV</string>
+    <string name="apart1">Hauteurs d\'or</string>
+    <string name="apart2">Hauteurs premium</string>
+    <string name="apart3">Park Heights</string>
+    <string name="apart4">Lake Heights</string>
+    <string name="semi1">48 Meadow Village</string>
+    <string name="semi2">35 Orchard House</string>
+    <string name="semi3">55 Grange</string>
+    <string name="semi4">42 Rose Village</string>
+    <string name="detached1">23 Primevère</string>
+    <string name="detached2">07 à flanc de colline</string>
+    <string name="detached3">09 au bord de la route</string>
+    <string name="detached4">01 Lauriers</string>
+    <string name="condo1">Clarence 230</string>
+    <string name="condo2">Coach House 233</string>
+    <string name="condo3">Highclere 188</string>
+    <string name="condo4">Pignons 172</string>
+    <string name="food">Entrez votre plat préféré</string>
+    <string name="favSchool">Entrez le nom de votre première école</string>
+    <string name="feedback">Donnez votre avis</string>
+    <string name="slogan">Transformez un rêve en maison</string>
+</resources>

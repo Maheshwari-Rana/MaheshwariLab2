@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item  android:id="@+id/maheshwariApartment"
+        android:title="@string/apart"/>
+    <item  android:id="@+id/masheshwariDetached_home"
+        android:title="@string/detached"/>
+    <item  android:id="@+id/maheshwariSemi_detached_home"
+        android:title="@string/semidetached"/>
+    <item  android:id="@+id/maheshwariCondo_apartment"
+        android:title="@string/condo_apart"/>
+    <item android:id="@+id/maheshwariTown_house"
+        android:title="@string/town_house"/>
+</menu>

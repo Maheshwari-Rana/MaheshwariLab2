@@ -1,0 +1,166 @@
+<resources>
+
+    <!--
+     Full Name - Maheshwari Rana
+     Student ID - 301110467
+     Section - 002 -->
+
+    <string name="app_name">MaheshwariLab2</string>
+
+    <!-- Title on the main screen -->
+    <string name="title">Home Rentals</string>
+
+    <!-- Logo image on the main screen -->
+    <string name="image">Main Image</string>
+
+    <!-- Slogan on the main screen -->
+    <string name="slogan">Turn a Dream into a Home</string>
+
+    <!-- Button text on the main screen -->
+    <string name="enter">Enter</string>
+
+    <!-- Text on the main screen -->
+    <string name="menuText">Select the options from the top menu!</string>
+
+    <!-- Apartment text on the menu -->
+    <string name="apart">Apartments</string>
+
+    <!-- Detached home text on the menu -->
+    <string name="detached">Detached Home</string>
+
+    <!-- Semi-Detached home text on the menu -->
+    <string name="semidetached">Semi-Detached Home</string>
+
+    <!-- Condominium apartment text on the menu -->
+    <string name="condo_apart">Condominium Apartment</string>
+
+    <!-- Town house text on the menu -->
+    <string name="town_house">Town House</string>
+
+    <!-- Town house text on the custom layout -->
+    <string name="house">House Gallery</string>
+
+    <!-- Text for house image -->
+    <string name="houseImage">House Image</string>
+
+    <!-- Address for 1st house -->
+    <string name="address1">123 Thornbeck Dr</string>
+
+    <!-- Address for 1st apartment -->
+    <string name="apart1">Golden Heights</string>
+
+    <!-- Address for 2nd apartment -->
+    <string name="apart2">Premium Heights</string>
+
+    <!-- Address for 3rd apartment -->
+    <string name="apart3">Park Heights</string>
+
+    <!-- Address for 4th apartment -->
+    <string name="apart4">Lake Heights</string>
+
+    <!-- Address for 1st semi-detached -->
+    <string name="semi1">48 Meadow Village</string>
+
+    <!-- Address for 2nd semi-detached -->
+    <string name="semi2">35 Orchard House</string>
+
+    <!-- Address for 3rd semi-detached -->
+    <string name="semi3">55 Barn</string>
+
+    <!-- Address for 4th semi-detached -->
+    <string name="semi4">42 Rose Village</string>
+
+    <!-- Address for 1st detached -->
+    <string name="detached1">23 Primrose</string>
+
+    <!-- Address for 2nd detached -->
+    <string name="detached2">07 Hillside</string>
+
+    <!-- Address for 3rd detached -->
+    <string name="detached3">09 Wayside</string>
+
+    <!-- Address for 4th detached -->
+    <string name="detached4">01 Laurels</string>
+
+    <!-- Address for 1st condo -->
+    <string name="condo1">Clarence 230</string>
+
+    <!-- Address for 2nd condo -->
+    <string name="condo2">Coach House 233</string>
+
+    <!-- Address for 3rd condo -->
+    <string name="condo3">Highclere 188</string>
+
+    <!-- Address for 4th condo -->
+    <string name="condo4">Gables 172</string>
+
+    <!-- Price for 1st house -->
+    <string name="price1">$ 2500</string>
+
+    <!-- Address for 2nd house -->
+    <string name="address2">28 Mafeking Crescent</string>
+
+    <!-- Price for 2nd house -->
+    <string name="price2">$ 3500</string>
+
+    <!-- Address for 3rd house -->
+    <string name="address3">1050 Markham Road</string>
+
+    <!-- Price for 3rd house -->
+    <string name="price3">$ 2000</string>
+
+    <!-- Address for 4th house -->
+    <string name="address4">01 Brimorton Dr</string>
+
+    <!-- Price for 4th house -->
+    <string name="price4">$ 3000</string>
+
+    <!-- Button for checkout -->
+    <string name="checkout">Checkout</string>
+
+    <!-- Text for View selection -->
+    <string name="selected">Review Selection</string>
+
+    <!-- Text for user's name -->
+    <string name="name">Enter your name</string>
+
+    <!-- Text for user's card -->
+    <string name="card">Enter your card number</string>
+
+    <!-- Text for selecting payment type -->
+    <string name="pay_type">Select type of payment</string>
+
+    <!-- Text for cash -->
+    <string name="cash">Cash</string>
+
+    <!-- Text for debit -->
+    <string name="debit">Debit</string>
+
+    <!-- Text for credit -->
+    <string name="credit">Credit</string>
+
+    <!-- Text for favorite car -->
+    <string name="car">Enter your favorite car</string>
+
+    <!-- Text for favorite food -->
+    <string name="food">Enter your favorite food</string>
+
+    <!-- Text for first school -->
+    <string name="favSchool">Enter the name of your first school</string>
+
+    <!-- Text for feedback -->
+    <string name="feedback">Give your feedback</string>
+
+    <!-- Text for submit car -->
+    <string name="submit">Submit</string>
+
+    <!-- Text for payment -->
+    <string name="pay">Payment</string>
+
+    <!-- Text for date -->
+    <string name="date">Date</string>
+
+    <!-- Text for security -->
+    <string name="cvv">CVV</string>
+
+</resources>
