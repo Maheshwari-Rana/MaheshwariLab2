@@ -3,6 +3,7 @@ package com.example.maheshwarilab2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,10 +12,15 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
 public class RanaPaymentActivity extends AppCompatActivity {
 
@@ -22,11 +28,11 @@ public class RanaPaymentActivity extends AppCompatActivity {
     // Student ID -- 301110467
     // Section -- 002
 
-    private EditText name, cardNumber, carInput, cardDate, cardCVV, foodInput, fistSchool, feedBack;
+    private EditText name, cardNumber, carInput, cardDate, cardCVV, foodInput, firstSchool, feedBack;
     private RadioGroup rgPayType;
     private String payType;
     private SharedPreferences spFinished;
-
+    private  Calendar myCalendar = Calendar.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,8 +60,39 @@ public class RanaPaymentActivity extends AppCompatActivity {
                 }
             }
         });
+
+        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+
+            @Override
+            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                  int dayOfMonth) {
+                // TODO Auto-generated method stub
+                myCalendar.set(Calendar.YEAR, year);
+                myCalendar.set(Calendar.MONTH, monthOfYear);
+                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                updateLabel();
+            }
+
+        };
+
+        cardDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                new DatePickerDialog(RanaPaymentActivity.this, date, myCalendar
+                        .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                        myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
     }
 
+    private void updateLabel() {
+        String myFormat = "MM/dd/yy"; //In which you need put here
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+
+        cardDate.setText(sdf.format(myCalendar.getTime()));
+    }
+    
     private void findAllViews() {
         name = findViewById(R.id.maheshwariEtName);
         cardNumber = findViewById(R.id.maheshwariEtCard);
@@ -63,7 +100,7 @@ public class RanaPaymentActivity extends AppCompatActivity {
         cardDate = findViewById(R.id.maheshwariEtExDate);
         cardCVV = findViewById(R.id.maheshwariEtCVV);
         foodInput = findViewById(R.id.maheshwariEtFavFood);
-        fistSchool = findViewById(R.id.maheshwariEtFirstSchool);
+        firstSchool = findViewById(R.id.maheshwariEtFirstSchool);
         feedBack = findViewById(R.id.maheshwariEtFeedback);
 
         rgPayType = findViewById(R.id.maheshwariRg);
@@ -82,7 +119,7 @@ public class RanaPaymentActivity extends AppCompatActivity {
                 "Security Code: " + cardCVV.getText().toString() + "\n" +
                 "Favorite Car: " + carInput.getText().toString() + "\n" +
                 "Favorite Food: " + foodInput.getText().toString() + "\n" +
-                "School: " + fistSchool.getText().toString() + "\n" +
+                "School: " + firstSchool.getText().toString() + "\n" +
                 "Feedback: " + feedBack.getText().toString();
 
         String msg1 = "Name: " + name.getText().toString() + "\n" +
@@ -90,7 +127,7 @@ public class RanaPaymentActivity extends AppCompatActivity {
                 "Payment Type: " + payType + "\n" +
                 "Favorite Car: " + carInput.getText().toString() + "\n" +
                 "Favorite Food: " + foodInput.getText().toString() + "\n" +
-                "School: " + fistSchool.getText().toString() + "\n" +
+                "School: " + firstSchool.getText().toString() + "\n" +
                 "Feedback: " + feedBack.getText().toString();
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);

@@ -102,9 +102,12 @@
             android:layout_height="match_parent"
             android:layout_marginEnd="8dp"
             android:inputType="date"
+            android:clickable="true"
+            android:editable="false"
             android:hint="@string/date"
             android:layout_weight="1"
-            android:layout_marginRight="8dp" />
+            android:layout_marginRight="8dp"
+            android:focusable="false" />
 
         <EditText
             android:id="@+id/maheshwariEtCVV"
